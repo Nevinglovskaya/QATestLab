@@ -7,26 +7,6 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 public class EventHandler implements WebDriverEventListener {
 
-    @Override
-    public void beforeAlertAccept(WebDriver webDriver) {
-
-    }
-
-    @Override
-    public void afterAlertAccept(WebDriver webDriver) {
-
-    }
-
-    @Override
-    public void afterAlertDismiss(WebDriver webDriver) {
-
-    }
-
-    @Override
-    public void beforeAlertDismiss(WebDriver webDriver) {
-
-    }
-
     public void beforeNavigateTo(String var1, WebDriver driver) {
 
     }
